@@ -42,5 +42,7 @@ spec:
   ports:
     - port: 3000
       targetPort: 3000
+      nodePort: 30700
 
   type: NodePort
+  
